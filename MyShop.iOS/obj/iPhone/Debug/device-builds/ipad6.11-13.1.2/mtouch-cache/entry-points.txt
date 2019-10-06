@@ -1,0 +1,62 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_start_wwan
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/roberthellestrae/Desktop/app-myshoppe/MyShop.iOS/obj/iPhone/Debug/device-builds/ipad6.11-13.1.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=mono_pmip
+Function=mono_profiler_init_log

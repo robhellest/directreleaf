@@ -1,0 +1,21 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{922B72BE-8B10-4B52-8D48-881853B15028}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyShop.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3A9967BE-4A3E-41CF-8875-265C0BFCFEAA" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyShop" expanded="True" selected="True">
+            <Node name="MyShop.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyShop.Android PreferredExecutionTarget="Android.my_device" />
+</Properties>

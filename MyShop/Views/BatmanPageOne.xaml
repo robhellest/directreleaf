@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyShop.BatmanPageOne"
+             xmlns:local="clr-namespace:MyShop;assembly=MyShop">
+    <ContentPage.Content>
+
+        <ScrollView>
+
+        <StackLayout Margin="20,35,20,20">
+            <Label Text="well versed in martial arts techniques..."
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+                   TextColor="DodgerBlue"/>
+
+            <!--<Button
+                    FontSize="Medium"
+                    Text="1940s >"
+                    Command="{Binding SlideFromRightCommand}"/>-->
+
+                <!-- uses a custom Extension defined in this project for now -->
+                <!--<Image Source="{local:ImageResource WorkingWithImages.beach.jpg}" />-->
+                <Image Source="{local:ImageResource MyShop.Images.BatmanSix.png}" Margin="0,10,0,0"/>
+
+                <Label Margin="0,10,0,0" Text="new Released in May 1939, Batman first appeared on pages of a comic book in Detective Comics #27; comic was created by Bob Kane and was sold for 10 cents each; Kane's inspiration for Batman included Scarlet Pimpernet, a masked vigilante and The Mask of Zorro;" />
+
+             <Grid RowSpacing="0" ColumnSpacing="0" HorizontalOptions="Center" Margin="0,10,0,0">
+			    <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+			    </Grid.RowDefinitions>
+			    <Grid.ColumnDefinitions>
+				    <ColumnDefinition Width="200"/>
+			    </Grid.ColumnDefinitions>
+
+                <Button
+                    FontSize="Medium" Grid.Row="0" Grid.Column="0"
+                    Text="1940s >"
+                    Command="{Binding SlideFromRightCommand}"
+                    BackgroundColor="DodgerBlue"
+                    TextColor="White"
+                    WidthRequest="50"/>
+             </Grid>
+
+        </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

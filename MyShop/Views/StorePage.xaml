@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MyShop.StorePage"
+	xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+    xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+    xmlns:design="clr-namespace:MyShop;assembly=MyShop"
+    BindingContext="{x:Static design:ViewModelLocator.StoreViewModel}"
+    Title="{Binding Store.Name}"
+	IsBusy="{Binding IsBusy}">
+	<ContentPage.Content>
+		<ScrollView>
+			<Grid Padding="10" RowSpacing="10" ColumnSpacing="10" x:Name="MainGrid">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="250"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width=".5*"/>
+					<ColumnDefinition Width=".1*"/>
+					<ColumnDefinition Width=".4*"/>
+				</Grid.ColumnDefinitions>
+				<controls:CircleImage 
+					Grid.ColumnSpan="3"
+					HeightRequest="150"
+					WidthRequest="150"
+					HorizontalOptions="CenterAndExpand"
+					VerticalOptions ="CenterAndExpand"
+					BorderColor="Red" 
+					BorderThickness="4"
+                    Aspect="AspectFill">
+					<controls:CircleImage.Source>
+						<UriImageSource Uri="{Binding Store.ImageUri}" 
+							CacheValidity="14" 
+							CachingEnabled="true"/>
+					</controls:CircleImage.Source>
+				</controls:CircleImage>
+				<Label
+					Grid.Row="1"
+					Grid.ColumnSpan="3" 
+					FontSize="Small"
+					Text="{Binding Store.City}"
+					HorizontalOptions="Center"/>
+				<Button 
+					x:Name="ButtonFindStore"
+					Grid.Row="2"
+					BackgroundColor="Red"
+					BorderRadius="0"
+					TextColor="White" 
+					Image="phone.png"
+					Text="Call"
+					Command="{Binding CallCommand}"/>
+				<Label 
+					Grid.Row="2"
+					Grid.Column="1"
+					Grid.ColumnSpan="2"
+					VerticalOptions="Center"
+					HorizontalOptions="Center"
+					FontSize="Medium"
+					Text="{Binding Store.Phone}"/>
+
+				<Label
+					Grid.Row="3"
+					Grid.ColumnSpan="3" 
+					FontAttributes="Bold"
+					FontSize="Medium"
+					Text="Location"
+					TextColor="Red"/>
+
+				<Label
+					Grid.Row="4"
+					Grid.Column="1" 
+					Grid.ColumnSpan="2"
+					FontSize="Small"
+					Text="{Binding Address1}"/>
+				<Label
+					Grid.Row="5"
+					Grid.Column="1" 
+					Grid.ColumnSpan="2"
+					FontSize="Small"
+					Text="{Binding Address2}"/>
+
+
+				<Button 
+					Grid.Row="4"
+					Grid.RowSpan="2"
+					BackgroundColor="Red" 
+					BorderRadius="0"
+					TextColor="White"
+					Image="navigation.png"
+					Text="Navigate"
+					Command="{Binding NavigateCommand}"
+					VerticalOptions="FillAndExpand"/>
+
+				<!--<maps:Map Grid.Row="14"
+						Grid.ColumnSpan="3" 
+			            x:Name="MyMap"
+			            IsShowingUser="false"
+		        	    MapType="Hybrid"/>-->
+			</Grid>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

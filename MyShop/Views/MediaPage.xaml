@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MyShop.Views.MediaPage">
+
+   <ScrollView>
+    <StackLayout Spacing="10" Padding="10">
+      <Button x:Name="takePhoto" Text="Take Photo" FontSize="Large" FontAttributes="Bold"/>
+      <Button x:Name="pickPhoto" Text="Pick Photo" FontSize="Large" FontAttributes="Bold"/>
+      <!--<Button x:Name="takeVideo" Text="Take Video"/>
+      <Button x:Name="pickVideo" Text="Pick Video"/>-->
+
+		<Grid RowSpacing="0" ColumnSpacing="0" HorizontalOptions="Center" Margin="0,10,0,0">
+			    <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+			    </Grid.RowDefinitions>
+			    <Grid.ColumnDefinitions>
+				    <ColumnDefinition Width="200"/>
+					<ColumnDefinition Width="200"/>
+			    </Grid.ColumnDefinitions>
+
+                <Label
+					x:Name="lblLatitudeText" Margin="10,0,10,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                    FontSize="Medium" Grid.Row="0" Grid.Column="0"
+                    Text="Latitude"
+                    BackgroundColor="DodgerBlue"
+                    TextColor="White"
+                    WidthRequest="50"
+                    IsVisible="false"/>
+
+				 <Label
+					x:Name="lblLongitudeText" Margin="10,0,10,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                    FontSize="Medium" Grid.Row="0" Grid.Column="1"
+                    Text="Longitude"
+                    BackgroundColor="DodgerBlue"
+                    TextColor="White"
+                    WidthRequest="50"
+                    IsVisible="false"/>
+
+                <Label
+					x:Name="lblLatitude" Margin="20,10,0,0"
+                    FontSize="Medium" Grid.Row="1" Grid.Column="0"
+                    Text=""
+                    TextColor="DodgerBlue"
+                    WidthRequest="50"
+                    IsVisible="false"/>
+
+				 <Label
+					x:Name="lblLongitude" Margin="20,10,0,0"
+                    FontSize="Medium" Grid.Row="1" Grid.Column="1"
+                    Text=""
+                    TextColor="DodgerBlue"
+                    WidthRequest="50"
+                    IsVisible="false"/>
+
+                <Label
+					x:Name="lblStreetAddressText" Margin="20,10,0,0" FontSize="Large" FontAttributes="Bold"
+                    Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                    Text="Street Address: "
+                    TextColor="DodgerBlue"
+                    WidthRequest="50"
+                    IsVisible="false"/>
+
+                 <Label
+					x:Name="lblStreetAddress" Margin="20,10,0,0" FontSize="Large" FontAttributes="Bold"
+                    Grid.Row="2" Grid.Column="1" 
+                    Text=""
+                    TextColor="DodgerBlue"
+                    WidthRequest="50"
+                    IsVisible="false"/>
+
+             </Grid>
+
+
+      <Image x:Name="image"/>
+
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

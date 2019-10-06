@@ -1,0 +1,17 @@
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/bin/Debug/netstandard2.0/MyShopAdmin.dll.config
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/bin/Debug/netstandard2.0/MyShopAdmin.deps.json
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/bin/Debug/netstandard2.0/MyShopAdmin.dll
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/bin/Debug/netstandard2.0/MyShopAdmin.pdb
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/bin/Debug/netstandard2.0/MyShop.dll
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/bin/Debug/netstandard2.0/MyShop.pdb
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/bin/Debug/netstandard2.0/MyShop.dll.config
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.csprojAssemblyReference.cache
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.Views.FeedbackListPage.xaml.g.cs
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.Views.FeedbackPage.xaml.g.cs
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.Views.HomePage.xaml.g.cs
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.Views.StoresPage.xaml.g.cs
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.AssemblyInfoInputs.cache
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.AssemblyInfo.cs
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.csproj.CopyComplete
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.dll
+/Users/roberthellestrae/Documents/GitHub/app-myshoppe/MyShopAdmin/obj/Debug/netstandard2.0/MyShopAdmin.pdb

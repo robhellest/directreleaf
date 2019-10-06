@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MyShop.HomePage"
+	Title="{Binding Title}"
+	IsBusy="{Binding IsBusy}">
+	<ContentPage.Content Padding="0" >
+
+		<Grid RowSpacing="0" ColumnSpacing="0">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+            <Image
+                Grid.Row="0"
+                x:Name="HeroImage"
+                Grid.ColumnSpan="2"
+				Source="DirectRelief.png"
+                Aspect="AspectFit"
+				HorizontalOptions="FillAndExpand"
+				VerticalOptions ="FillAndExpand"/>
+			<Button 
+				x:Name="ButtonFindStore"
+				Grid.Row="1"
+				BackgroundColor="Red"
+				BorderRadius="0"
+				TextColor="White" 
+				Text="Red Cross Chapters"
+                Command="{Binding SlideFromRightCommand}"/>
+			<Button 
+				x:Name="ButtonLeaveFeedback"
+                Clicked="OnSayHiButtonClicked"
+				Grid.Row="1"
+				Grid.Column="1"
+				BackgroundColor="Black" 
+				BorderRadius="0"
+				TextColor="White"
+				Text="Relief Site Photo"/>
+            <!--<Button 
+				x:Name="btnSuperman"
+                Clicked="btnSuperman_Clicked"
+				Grid.Row="2"
+				BackgroundColor="#3498DB"
+				BorderRadius="0"
+				TextColor="White" 
+				Text="Superman Evolves"/>-->
+			<!--<Button 
+				x:Name="btnSpiderman"
+				Grid.Row="2"
+				Grid.Column="1"
+				BackgroundColor="Black" 
+				BorderRadius="0"
+				TextColor="White"
+				Text="Spiderman Evolves"/>-->
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
